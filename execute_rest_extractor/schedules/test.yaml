@@ -5,7 +5,7 @@
     frontfill_enabled: "True"
     frontfill_lookback_min: "60"
 
-- name: Backfill once a day for the last 30 days (gap filling)
+- name: Backfill once a day for the last 30 days (gap filling test)
   cron: "0 0 * * *"
   data:
     backfill_enabled: "True"
